@@ -1,0 +1,26 @@
+/*
+　モーダル全体のスタイル指定
+*/
+div[data-type="modal-area"] {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left : 0;
+  width: 100%;
+}
+.modal_bg {
+  background: rgba(0,0,0,0.8);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.modal_content{
+  background: #fff;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}

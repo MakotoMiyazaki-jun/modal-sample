@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>モーダル表示サンプル</title>
+<script type="text/javascript" src="./lib/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="./scripts/modal.js"></script>
+<script type="text/javascript" src="./scripts/main.js"></script>
+<link rel="stylesheet" href="./styles/main.css">
+<link rel="stylesheet" href="./styles/modal.css">
+
+<!-- 使いたいModalのJSとスタイルをインポートする -->
+<script type="text/javascript" src="./scripts/sample1-modal.js"></script>
+<link rel="stylesheet" href="./styles/sample1-modal.css"></script>
+</head>
+<body>
+<div>パラメータ：<input type="text" id="parameter" /></div>
+<div>処理結果：<span id="result"></span></div>
+<div><input type="button" value="sample1をモーダルで開く" data-type="modal-button" data-modal-type="sample1" /></div>
+
+<div data-type="modal-area" data-modal-type="sample1" />
+</body>
+</html>
