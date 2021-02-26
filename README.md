@@ -12,7 +12,7 @@ modal-sample
 data-type="modal-button"
 data-modal-type="使いたいモーダルのID"
   の2属性を追加
-- 最下部に' ＜div data-type="modal-area" data-modal-type="使いたいモーダルのID"＞ 'の要素を追加
+- 最下部に '<div data-type="modal-area" data-modal-type="使いたいモーダルのID">' の要素を追加
 ## メイン画面のJS（main.js）
 - モーダルクラスのインスタンス化
 - コンストラクタにパラメータ設定に関する関数と、処理結果を受け取る関数を設定
