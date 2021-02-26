@@ -1,5 +1,5 @@
-#Name
+# Name
 modal-sample
 
-#Description
+# Description
 フロントモーダル処理のサンプルソース
